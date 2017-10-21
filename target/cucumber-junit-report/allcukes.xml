@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="27.303732">
+<testcase classname="All Products Menu" name="Navigating to Cable wire page" time="20.07092">
+<system-out><![CDATA[Given I Navigate to the Home Page on "browser"..............................passed
+When I click on all Product menu............................................passed
+And I click on Cable Wire link..............................................passed
+Then I Should see Cable wire Page...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Choose your Connector" name="User wanting to choose product via Choose your own" time="7.232812">
+<system-out><![CDATA[Given I Navigated to Cable and Wire Page on "browser".......................passed
+When I click on Choose your own Connector link..............................passed
+Then I should Navigate to IndustrialPower Connector Page....................passed
+]]></system-out>
+</testcase>
+</testsuite>
